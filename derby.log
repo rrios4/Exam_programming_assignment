@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Feb 29 23:27:27 CST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance a816c00e-0170-9490-4525-00000cc62800 
+on database directory C:\Users\zexal\OneDrive\Documents\School Work\UH\Spring 2020\CIS 3368 - Adv Java\Exam_programming_assignment\EmployeeDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@79fc0f2f 
+Loaded from file:/C:/Users/zexal/OneDrive/Documents/School%20Work/UH/Spring%202020/CIS%203368%20-%20Adv%20Java/Exam_programming_assignment/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=13.0.2+8
+user.dir=C:\Users\zexal\OneDrive\Documents\School Work\UH\Spring 2020\CIS 3368 - Adv Java\Exam_programming_assignment
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

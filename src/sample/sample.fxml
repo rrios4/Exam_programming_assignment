@@ -1,0 +1,40 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TextField?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import com.jfoenix.controls.JFXListView?>
+<HBox fx:controller="sample.Controller" xmlns:fx="http://javafx.com/fxml" alignment="center">
+    <VBox>
+        <JFXListView fx:id="randomListView"/>
+        <JFXButton fx:id="createDB" text="Create Table" prefWidth="250"/>
+        <JFXButton fx:id="deleteDB" text="Delete Table" prefWidth="250"/>
+    </VBox>
+
+    <VBox spacing="5">
+        <Label text="Enter Minimum"/>
+        <TextField fx:id="MINinput" alignment="CENTER"/>
+        <Label text="Enter Maximum"/>
+        <TextField fx:id="MAXinput"/>
+
+        <JFXButton text="RUN" prefWidth="150" fx:id="RUN"/>
+        <JFXButton text="LOAD NUMBERS" prefWidth="150" fx:id="LOAD"/>
+
+        <Label fx:id="randomLabel" prefWidth="150"/>
+
+
+
+
+
+
+    </VBox>
+
+</HBox>
